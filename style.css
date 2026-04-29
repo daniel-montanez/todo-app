@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e1e1e, #2d2d2d);
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background: rgb(145, 145, 142);
+  padding: 25px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+li {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: #666;
+    opacity: 0.7;
+}
